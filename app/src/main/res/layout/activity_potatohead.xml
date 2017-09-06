@@ -19,48 +19,50 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/hat"
-        android:visibility="visible"/>
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/shoes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/shoes"
-        android:visibility="visible"/>
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/eyes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/eyes"
-        android:visibility="visible"/>
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/mustache"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/mustache"
-        android:visibility="visible"/>
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/eyebrows"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/eyebrows"/>
+        android:src="@drawable/eyebrows"
+        android:visibility="invisible"/>
+
 
     <ImageView
         android:id="@+id/arms"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/arms"
-        android:visibility="visible"/>
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/nose"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/nose"
-        android:visibility="visible"/>
+        android:visibility="invisible"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -69,7 +71,7 @@
 
         <CheckBox
             android:id="@+id/checkbox"
-            android:onClick="checkbox_1"
+            android:onClick="box1clicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hat"/>
