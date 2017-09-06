@@ -11,42 +11,56 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/body"/>
+        android:src="@drawable/body"
+        android:visibility="visible"/>
 
     <ImageView
+        android:id="@+id/hat"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/hat"/>
+        android:src="@drawable/hat"
+        android:visibility="visible"/>
 
     <ImageView
+        android:id="@+id/shoes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/shoes"/>
+        android:src="@drawable/shoes"
+        android:visibility="visible"/>
 
     <ImageView
+        android:id="@+id/eyes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/eyes"/>
+        android:src="@drawable/eyes"
+        android:visibility="visible"/>
 
     <ImageView
+        android:id="@+id/mustache"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/mustache"/>
+        android:src="@drawable/mustache"
+        android:visibility="visible"/>
 
     <ImageView
+        android:id="@+id/eyebrows"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/eyebrows"/>
 
     <ImageView
+        android:id="@+id/arms"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/arms"/>
+        android:src="@drawable/arms"
+        android:visibility="visible"/>
 
     <ImageView
+        android:id="@+id/nose"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/nose"/>
+        android:src="@drawable/nose"
+        android:visibility="visible"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,7 +75,17 @@
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hat"/>
+            android:text="Nose"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mustache"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shoes"/>
 
 
 
