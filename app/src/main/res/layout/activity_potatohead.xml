@@ -1,133 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFF0"
+    android:orientation="vertical"
     tools:context="com.example.justi.potatohead.potatohead">
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/body"/>
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/arms"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/arms"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ears"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/hat"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/mustache"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/shoes"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/eyebrows"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/eyes"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/nose"
-        />
+        app:srcCompat="@drawable/body" />
 
     <CheckBox
-        android:layout_width="wrap_content"
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="50dp"
-        app:layout_editor_absoluteY="420dp"
-        android:text="Eyes"
-        />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="50dp"
-        app:layout_editor_absoluteY="450dp"
-        android:text="Eyes"
-        />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="50dp"
-        app:layout_editor_absoluteY="480dp"
-        android:text="Eyes"
-        />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="50dp"
-        app:layout_editor_absoluteY="510dp"
-        android:text="Eyes"
-        />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="50dp"
-        app:layout_editor_absoluteY="540dp"
-        android:text="Eyes"
-        />
+        android:text="CheckBox" />
 
     <CheckBox
-        android:layout_width="wrap_content"
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="250dp"
-        app:layout_editor_absoluteY="420dp"
-        android:text="Eyes"
-        />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="250dp"
-        app:layout_editor_absoluteY="450dp"
-        android:text="Eyes"
-        />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="250dp"
-        app:layout_editor_absoluteY="480dp"
-        android:text="Eyes"
-        />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="250dp"
-        app:layout_editor_absoluteY="510dp"
-        android:text="Eyes"
-        />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_editor_absoluteX="250dp"
-        app:layout_editor_absoluteY="540dp"
-        android:text="Eyes"
-        />
+        android:text="CheckBox" />
 
-</android.support.constraint.ConstraintLayout>
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+</LinearLayout>
