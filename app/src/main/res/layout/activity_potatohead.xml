@@ -68,21 +68,26 @@
         android:orientation="vertical">
 
         <CheckBox
+            android:id="@+id/checkbox"
+            android:onClick="checkbox_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hat"/>
 
         <CheckBox
+            android:id="@+id/checkbox1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nose"/>
 
         <CheckBox
+            android:id="@+id/checkbox2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mustache"/>
 
         <CheckBox
+            android:id="@+id/checkbox3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Shoes"/>
