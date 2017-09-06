@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.justi.potatohead.potatohead">
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="122dp"
+        android:layout_height="34dp"
+        android:text="Body"
+        app:layout_constraintRight_toRightOf="@+id/checkBox4"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox4"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox4" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:text="Arms"
+        app:layout_constraintRight_toRightOf="@+id/checkBox2"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox2"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="123dp"
+        android:layout_height="31dp"
+        android:text="Hat"
+        app:layout_constraintRight_toRightOf="@+id/checkBox5"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox5"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox5"
+        app:layout_constraintHorizontal_bias="0.666"
+        android:layout_marginBottom="0dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="126dp"
+        android:layout_height="33dp"
+        android:text="Ears"
+        app:layout_constraintRight_toRightOf="@+id/checkBox6"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox6"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox6" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="Eyebrows"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="124dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="-9dp"
+        android:text="Eyes"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox3"
+        app:layout_constraintRight_toRightOf="@+id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="115dp"
+        android:layout_height="32dp"
+        android:text="Glasses"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="116dp"
+        android:layout_height="32dp"
+        android:text="Mouth"
+        tools:layout_editor_absoluteY="333dp"
+        tools:layout_editor_absoluteX="213dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="116dp"
+        android:layout_height="33dp"
+        android:text="Mustache"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:text="Nose"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
+        android:text="Shoes"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+</android.support.constraint.ConstraintLayout>
