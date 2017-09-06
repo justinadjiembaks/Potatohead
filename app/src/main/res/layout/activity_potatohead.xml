@@ -22,6 +22,13 @@
         android:visibility="invisible"/>
 
     <ImageView
+        android:id="@+id/ears"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ears"
+        android:visibility="invisible"/>
+
+    <ImageView
         android:id="@+id/shoes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -71,28 +78,59 @@
 
         <CheckBox
             android:id="@+id/checkbox"
-            android:onClick="box1clicked"
+            android:onClick="boxclicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hat"/>
 
         <CheckBox
             android:id="@+id/checkbox1"
+            android:onClick="box1clicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nose"/>
 
         <CheckBox
             android:id="@+id/checkbox2"
+            android:onClick="box2clicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mustache"/>
 
         <CheckBox
             android:id="@+id/checkbox3"
+            android:onClick="box3clicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Shoes"/>
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:onClick="box4clicked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eyes"/>
+
+        <CheckBox
+            android:id="@+id/checkbox5"
+            android:onClick="box5clicked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arms"/>
+
+        <CheckBox
+            android:id="@+id/checkbox6"
+            android:onClick="box6clicked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eyebrows"/>
+
+        <CheckBox
+            android:id="@+id/checkbox7"
+            android:onClick="box7clicked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ears"/>
 
 
 

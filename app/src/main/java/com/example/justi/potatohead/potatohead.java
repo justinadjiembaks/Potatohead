@@ -14,7 +14,7 @@ import java.util.List;
 
 public class potatohead extends AppCompatActivity {
 
-    ImageView hat, nose;
+    ImageView hat, nose, mustache, shoes, eyes, eyebrows, ears, arms;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +23,26 @@ public class potatohead extends AppCompatActivity {
 
         hat = (ImageView)findViewById(R.id.hat);
         nose = (ImageView) findViewById(R.id.nose);
+        mustache = (ImageView) findViewById(R.id.mustache);
+        shoes = (ImageView) findViewById(R.id.shoes);
+        eyes = (ImageView) findViewById(R.id.eyes);
+        eyebrows = (ImageView) findViewById(R.id.eyebrows);
+        ears = (ImageView) findViewById(R.id.ears);
+        arms = (ImageView) findViewById(R.id.arms);
     }
-    public void box1clicked(View v){
+    public void boxclicked(View v){
         hat.setVisibility(View.VISIBLE);
+    }
 
+    public void box1clicked(View v){
+        nose.setVisibility(View.VISIBLE);
+    }
 
+    public void box2clicked(View v){
+        mustache.setVisibility(View.VISIBLE);
+    }
+
+    public void box3clicked(View v){
+        shoes.setVisibility(View.VISIBLE);
     }
 }
