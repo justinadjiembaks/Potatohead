@@ -31,18 +31,75 @@ public class potatohead extends AppCompatActivity {
         arms = (ImageView) findViewById(R.id.arms);
     }
     public void boxclicked(View v){
-        hat.setVisibility(View.VISIBLE);
+        if (hat.getVisibility()== View.VISIBLE){
+            hat.setVisibility(View.INVISIBLE);
+        }
+        else{
+            hat.setVisibility(View.VISIBLE);
+        }
     }
 
     public void box1clicked(View v){
-        nose.setVisibility(View.VISIBLE);
+        if (nose.getVisibility()== View.VISIBLE){
+            nose.setVisibility(View.INVISIBLE);
+        }
+        else{
+            nose.setVisibility(View.VISIBLE);
+        }
     }
 
     public void box2clicked(View v){
-        mustache.setVisibility(View.VISIBLE);
+        if (mustache.getVisibility()== View.VISIBLE){
+            mustache.setVisibility(View.INVISIBLE);
+        }
+        else{
+            mustache.setVisibility(View.VISIBLE);
+        }
+
     }
 
     public void box3clicked(View v){
-        shoes.setVisibility(View.VISIBLE);
+        if (shoes.getVisibility()== View.VISIBLE){
+            shoes.setVisibility(View.INVISIBLE);
+        }
+        else{
+            shoes.setVisibility(View.VISIBLE);
+        }
     }
+
+    public void box4clicked(View v){
+        if (eyes.getVisibility()== View.VISIBLE){
+            eyes.setVisibility(View.INVISIBLE);
+        }
+        else{
+            eyes.setVisibility(View.VISIBLE);
+        }
+    }
+
+    public void box5clicked(View v){
+        if (arms.getVisibility()== View.VISIBLE){
+            arms.setVisibility(View.INVISIBLE);
+        }
+        else{
+            arms.setVisibility(View.VISIBLE);
+        }
+    }
+    public void box6clicked(View v){
+        if (eyebrows.getVisibility()== View.VISIBLE){
+            eyebrows.setVisibility(View.INVISIBLE);
+        }
+        else{
+            eyebrows.setVisibility(View.VISIBLE);
+        }
+    }
+
+    public void box7clicked(View v){
+        if (ears.getVisibility()== View.VISIBLE){
+            ears.setVisibility(View.INVISIBLE);
+        }
+        else{
+            ears.setVisibility(View.VISIBLE);
+        }
+    }
+
 }
