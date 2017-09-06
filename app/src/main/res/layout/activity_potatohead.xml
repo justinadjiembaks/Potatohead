@@ -7,125 +7,10 @@
     android:background="#FFFFF0"
     tools:context="com.example.justi.potatohead.potatohead">
 
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Body"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox4"
-        app:layout_constraintLeft_toLeftOf="@+id/checkBox4"
-        app:layout_constraintRight_toRightOf="@+id/checkBox4"
-        app:layout_constraintHorizontal_bias="0.0" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Arms"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox2"
-        app:layout_constraintLeft_toLeftOf="@+id/checkBox2"
-        app:layout_constraintRight_toRightOf="@+id/checkBox2"
-        app:layout_constraintHorizontal_bias="0.0" />
-
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Hat"
-        app:layout_constraintRight_toRightOf="@+id/checkBox5"
-        app:layout_constraintLeft_toLeftOf="@+id/checkBox5"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox5"
-        app:layout_constraintHorizontal_bias="0.666" />
-
-    <CheckBox
-        android:id="@+id/checkBox5"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Ears"
-        app:layout_constraintRight_toRightOf="@+id/checkBox6"
-        app:layout_constraintLeft_toLeftOf="@+id/checkBox6"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox6" />
-
-    <CheckBox
-        android:id="@+id/checkBox6"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Eyebrows"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="460dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox7"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Eyes"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox3"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="@+id/checkBox3"
-        app:layout_constraintRight_toRightOf="@+id/checkBox3" />
-
-    <CheckBox
-        android:id="@+id/checkBox8"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Glasses"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="310dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox9"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Mouth"
-        tools:layout_editor_absoluteY="340dp"
-        tools:layout_editor_absoluteX="213dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox10"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Mustache"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="370dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox11"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:text="Nose"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="400dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox12"
-        android:layout_width="113dp"
-        android:layout_height="34dp"
-        android:text="Shoes"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="430dp" />
-
-    <android.support.constraint.Guideline
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/guideline"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="20dp" />
-
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/body"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox7"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.48" />
+        android:src="@drawable/body"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -172,4 +57,77 @@
         android:layout_height="wrap_content"
         android:src="@drawable/nose"
         />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="50dp"
+        app:layout_editor_absoluteY="420dp"
+        android:text="Eyes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="50dp"
+        app:layout_editor_absoluteY="450dp"
+        android:text="Eyes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="50dp"
+        app:layout_editor_absoluteY="480dp"
+        android:text="Eyes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="50dp"
+        app:layout_editor_absoluteY="510dp"
+        android:text="Eyes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="50dp"
+        app:layout_editor_absoluteY="540dp"
+        android:text="Eyes"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="250dp"
+        app:layout_editor_absoluteY="420dp"
+        android:text="Eyes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="250dp"
+        app:layout_editor_absoluteY="450dp"
+        android:text="Eyes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="250dp"
+        app:layout_editor_absoluteY="480dp"
+        android:text="Eyes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="250dp"
+        app:layout_editor_absoluteY="510dp"
+        android:text="Eyes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="250dp"
+        app:layout_editor_absoluteY="540dp"
+        android:text="Eyes"
+        />
+
 </android.support.constraint.ConstraintLayout>
