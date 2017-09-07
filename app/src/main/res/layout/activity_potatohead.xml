@@ -76,61 +76,103 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <CheckBox
-            android:id="@+id/checkbox"
-            android:onClick="boxclicked"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hat"/>
+            android:orientation="horizontal"
+            android:weightSum="2">
 
-        <CheckBox
-            android:id="@+id/checkbox1"
-            android:onClick="box1clicked"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Nose"/>
+            <CheckBox
 
-        <CheckBox
-            android:id="@+id/checkbox2"
-            android:onClick="box2clicked"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Mustache"/>
+                android:id="@+id/checkbox"
+                android:onClick="boxclicked"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hat"/>
 
-        <CheckBox
-            android:id="@+id/checkbox3"
-            android:onClick="box3clicked"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Shoes"/>
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:onClick="box1clicked"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nose"/>
 
-        <CheckBox
-            android:id="@+id/checkbox4"
-            android:onClick="box4clicked"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Eyes"/>
+        </LinearLayout>
 
-        <CheckBox
-            android:id="@+id/checkbox5"
-            android:onClick="box5clicked"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Arms"/>
+        <LinearLayout
 
-        <CheckBox
-            android:id="@+id/checkbox6"
-            android:onClick="box6clicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Eyebrows"/>
+            android:orientation="horizontal"
+            android:weightSum="2">
 
-        <CheckBox
-            android:id="@+id/checkbox7"
-            android:onClick="box7clicked"
+            <CheckBox
+                android:id="@+id/checkbox2"
+                android:onClick="box2clicked"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mustache"/>
+
+            <CheckBox
+                android:id="@+id/checkbox3"
+                android:onClick="box3clicked"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Shoes"/>
+         </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ears"/>
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkbox4"
+                android:onClick="box4clicked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Eyes"/>
+
+            <CheckBox
+                android:id="@+id/checkbox5"
+                android:onClick="box5clicked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Arms"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkbox6"
+                android:onClick="box6clicked"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Eyebrows"/>
+
+            <CheckBox
+                android:id="@+id/checkbox7"
+                android:onClick="box7clicked"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Ears"/>
+
+
+        </LinearLayout>
+
 
 
 
