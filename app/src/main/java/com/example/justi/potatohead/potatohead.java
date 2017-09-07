@@ -152,5 +152,35 @@ public class potatohead extends AppCompatActivity {
         if (HatState == 1){
             hat.setVisibility(View.VISIBLE);
         }
+
+        int EyesState = inState.getInt("eyes",0);
+        if (EyesState == 1){
+            eyes.setVisibility(View.VISIBLE);
+        }
+
+        int MustacheState = inState.getInt("mustache",0);
+        if (HatState == 1){
+            mustache.setVisibility(View.VISIBLE);
+        }
+        int ShoesState = inState.getInt("shoes",0);
+        if (ShoesState == 1){
+            shoes.setVisibility(View.VISIBLE);
+        }
+        int NoseState = inState.getInt("nose",0);
+        if (NoseState == 1){
+            nose.setVisibility(View.VISIBLE);
+        }
+        int EarsState = inState.getInt("ears",0);
+        if (EarsState == 1){
+            ears.setVisibility(View.VISIBLE);
+        }
+        int ArmsState = inState.getInt("arms",0);
+        if (ArmsState == 1){
+            arms.setVisibility(View.VISIBLE);
+        }
+        int EyebrowsState = inState.getInt("eyebrows",0);
+        if (EyebrowsState == 1){
+            eyebrows.setVisibility(View.VISIBLE);
+        }
     }
 }
