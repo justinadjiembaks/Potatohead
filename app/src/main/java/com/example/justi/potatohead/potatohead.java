@@ -29,6 +29,7 @@ public class potatohead extends AppCompatActivity {
         eyebrows = (ImageView) findViewById(R.id.eyebrows);
         ears = (ImageView) findViewById(R.id.ears);
         arms = (ImageView) findViewById(R.id.arms);
+
     }
     public void boxclicked(View v){
         if (hat.getVisibility()== View.VISIBLE){
@@ -102,4 +103,54 @@ public class potatohead extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onSaveInstanceState(Bundle outState){
+        super.onSaveInstanceState(outState);
+
+        int hatValue = hat.getVisibility();
+        if (hatValue == View.VISIBLE){
+            outState.putInt("hat",1);
+        }
+
+        int eyesValue = eyes.getVisibility();
+        if (hatValue == View.VISIBLE){
+            outState.putInt("eyes",1);
+        }
+
+        int armsValue = arms.getVisibility();
+        if (hatValue == View.VISIBLE){
+            outState.putInt("arms",1);
+        }
+        int shoesValue = shoes.getVisibility();
+        if (hatValue == View.VISIBLE){
+            outState.putInt("shoes",1);
+        }
+        int mustacheValue = mustache.getVisibility();
+        if (hatValue == View.VISIBLE){
+            outState.putInt("mustache",1);
+        }
+
+        int eyebrowsValue = eyebrows.getVisibility();
+        if (hatValue == View.VISIBLE){
+            outState.putInt("eyebrows",1);
+        }
+        int noseValue = nose.getVisibility();
+        if (hatValue == View.VISIBLE){
+            outState.putInt("nose",1);
+        }
+        int earsValue = ears.getVisibility();
+        if (hatValue == View.VISIBLE){
+            outState.putInt("ears",1);
+        }
+
+    }
+    @Override
+    public void onRestoreInstanceState(Bundle inState) {
+        super.onRestoreInstanceState(inState);
+
+        int HatState = inState.getInt("hat",0);
+        if (HatState == 1){
+            hat.setVisibility(View.VISIBLE);
+        }
+    }
 }
